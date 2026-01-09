@@ -1,0 +1,77 @@
+Execution log
+10:54:34 PM	Notice	Execution started
+10:54:34 PM	Info	🚀 Starting Double-Key Remote Job Pipeline...
+10:54:34 PM	Info	
+10:54:34 PM	Info	=== STAGE 1: Remote Specialist ===
+10:54:34 PM	Info	🔍 Looking for label: 1.1 🔥 - Jobs Hot (0-2 days)
+10:54:34 PM	Info	🔍 Looking for label: 1.2 ⏰ - Jobs Warm (3-5 days)
+10:54:34 PM	Info	🔍 Looking for label: 1.3 🧊 - Jobs Cold (6-10 days)
+10:54:34 PM	Info	🔍 DEBUG - Search query: (label:1.1-🔥---jobs-hot--0-2-days- OR label:1.2-⏰---jobs-warm--3-5-days- OR label:1.3-🧊---jobs-cold--6-10-days-) -label:Remote
+10:54:35 PM	Info	Found 26 threads to process
+10:54:35 PM	Info	✅ Remote jobs found (1): “Sales Development Representative”: Mercor - Sales Specialist - Fully Remote and more
+10:54:35 PM	Info	✅ Remote jobs found (1): Sales Development Representative role at Netskope: Actively recruiting
+10:54:35 PM	Info	✅ Remote jobs found (1): “Sales Development Representative”: Soda - Sales Development Representative(SDR) Internship UK Only and more
+10:54:35 PM	Info	✅ Remote jobs found (1): “Inbound Sales Representative”: Duetto - Business Development Representative - EMEA and more
+10:54:35 PM	Info	✅ Remote jobs found (1): “Sales Development Representative”: Soda - Sales Development Representative(SDR) Internship and more
+10:54:35 PM	Info	✅ Remote jobs found (1): “Inbound Sales Representative”: Alara - Sales Representative and more
+10:54:36 PM	Info	✅ Remote jobs found (1): “Inbound Sales Representative”: Bluecrest Wellness - Sales Support Advisor - Remote and more
+10:54:36 PM	Info	✅ Remote jobs found (1): “Sales Development Representative”: ProcurePro - Sales Development Representative and more
+10:54:36 PM	Info	✅ Remote jobs found (11): Michael, apply now to ‘Travel Customer Service at Viajemos solas pero en Grupo’
+10:54:36 PM	Info	✅ Remote jobs found (1): “Inbound Sales Representative”: ScaleyourSales - Sales Representative and more
+10:54:36 PM	Info	✅ Remote jobs found (1): “Sales Development Representative”: YourPrime - Sales Development Representative and more
+10:54:36 PM	Info	✅ Remote jobs found (1): “Sales Development Representative”: Cyan Exec - Sales Development Representative and more
+10:54:36 PM	Info	✅ Remote jobs found (1): “Inbound Sales Representative”: Litmos - Account Executive and more
+10:54:37 PM	Info	✅ Remote jobs found (1): Junior Sales / SDR - (Software / SaaS) - UK Remote role at Mayflower Recruitment Ltd and other opportunities open
+10:54:37 PM	Info	✅ Remote jobs found (1): “Sales Development Representative”: Employment Hero - Sales Development Representative and more
+10:54:37 PM	Info	✅ Remote jobs found (1): “Inbound Sales Representative”: Deel - Sales Development Representative, Mid-Market | UKI and more
+10:54:37 PM	Info	✅ Remote jobs found (7): Your next opportunity is waiting for you  👋
+10:54:37 PM	Info	✅ Remote jobs found (1): “Sales Development Representative”: UpGuard - Sales Development Representative (SDR) and more
+10:54:37 PM	Info	✅ Remote jobs found (1): “Inbound Sales Representative”: Glean - Commercial Account Executive - UK
+10:54:37 PM	Info	✅ Remote jobs found (1): New opening at Flourish (£27K-£32K / year)
+10:54:37 PM	Info	✅ Remote jobs found (1): “Sales Development Representative”: RemoteStar - Business Development Executive (Freshers) and more
+10:54:38 PM	Info	✅ Remote jobs found (1): “Inbound Sales Representative”: Bluecrest Wellness - Sales Support Advisor - Full Time & Remote
+10:54:38 PM	Info	✅ Remote jobs found (1): “Inbound Sales Representative”: Humand - Inbound Sales Development Representative | EMEA and more
+10:54:38 PM	Info	✅ Remote jobs found (1): “Sales Development Representative”: Connecteam - Sales Development Representative and more
+10:54:38 PM	Info	✅ Remote jobs found (1): “Inbound Sales Representative”: Veeva Systems - Sales Development Representative - UK & Nordics
+10:54:38 PM	Info	✅ Remote jobs found (1): “Sales Development Representative”: RemoteStar - Business Development Executive (Freshers) and more
+10:54:38 PM	Info	Stage 1 Complete: 26 emails with remote jobs found
+10:54:38 PM	Info	
+10:54:38 PM	Info	=== STAGE 2: The Purge ===
+10:54:38 PM	Info	Found 26 job threads to check
+10:54:38 PM	Info	🔍 DEBUG - About to get Remote label: Remote
+10:54:38 PM	Info	🔍 DEBUG - About to get/create Archive label: 1.4 💾 - Jobs Archive (11+ days)
+10:54:38 PM	Info	🔍 DEBUG - Successfully got labels
+10:54:38 PM	Info	🗑️ Archived (no remote): “Sales Development Representative”: Mercor - Sales Specialist - Fully Remote and more
+10:54:38 PM	Info	🗑️ Archived (no remote): Sales Development Representative role at Netskope: Actively recruiting
+10:54:38 PM	Info	🗑️ Archived (no remote): “Sales Development Representative”: Soda - Sales Development Representative(SDR) Internship UK Only and more
+10:54:38 PM	Info	🗑️ Archived (no remote): “Inbound Sales Representative”: Duetto - Business Development Representative - EMEA and more
+10:54:38 PM	Info	🗑️ Archived (no remote): “Sales Development Representative”: Soda - Sales Development Representative(SDR) Internship and more
+10:54:39 PM	Info	🗑️ Archived (no remote): “Inbound Sales Representative”: Alara - Sales Representative and more
+10:54:39 PM	Info	🗑️ Archived (no remote): “Inbound Sales Representative”: Bluecrest Wellness - Sales Support Advisor - Remote and more
+10:54:39 PM	Info	🗑️ Archived (no remote): “Sales Development Representative”: ProcurePro - Sales Development Representative and more
+10:54:39 PM	Info	🗑️ Archived (no remote): Michael, apply now to ‘Travel Customer Service at Viajemos solas pero en Grupo’
+10:54:39 PM	Info	🗑️ Archived (no remote): “Inbound Sales Representative”: ScaleyourSales - Sales Representative and more
+10:54:39 PM	Info	🗑️ Archived (no remote): “Sales Development Representative”: YourPrime - Sales Development Representative and more
+10:54:39 PM	Info	🗑️ Archived (no remote): “Sales Development Representative”: Cyan Exec - Sales Development Representative and more
+10:54:39 PM	Info	🗑️ Archived (no remote): “Inbound Sales Representative”: Litmos - Account Executive and more
+10:54:39 PM	Info	🗑️ Archived (no remote): Junior Sales / SDR - (Software / SaaS) - UK Remote role at Mayflower Recruitment Ltd and other opportunities open
+10:54:39 PM	Info	🗑️ Archived (no remote): “Sales Development Representative”: Employment Hero - Sales Development Representative and more
+10:54:39 PM	Info	🗑️ Archived (no remote): “Inbound Sales Representative”: Deel - Sales Development Representative, Mid-Market | UKI and more
+10:54:39 PM	Info	🗑️ Archived (no remote): Your next opportunity is waiting for you  👋
+10:54:39 PM	Info	🗑️ Archived (no remote): “Sales Development Representative”: UpGuard - Sales Development Representative (SDR) and more
+10:54:39 PM	Info	🗑️ Archived (no remote): “Inbound Sales Representative”: Glean - Commercial Account Executive - UK
+10:54:39 PM	Info	🗑️ Archived (no remote): New opening at Flourish (£27K-£32K / year)
+10:54:39 PM	Info	🗑️ Archived (no remote): “Sales Development Representative”: RemoteStar - Business Development Executive (Freshers) and more
+10:54:39 PM	Info	🗑️ Archived (no remote): “Inbound Sales Representative”: Bluecrest Wellness - Sales Support Advisor - Full Time & Remote
+10:54:39 PM	Info	🗑️ Archived (no remote): “Inbound Sales Representative”: Humand - Inbound Sales Development Representative | EMEA and more
+10:54:40 PM	Info	🗑️ Archived (no remote): “Sales Development Representative”: Connecteam - Sales Development Representative and more
+10:54:40 PM	Info	🗑️ Archived (no remote): “Inbound Sales Representative”: Veeva Systems - Sales Development Representative - UK & Nordics
+10:54:40 PM	Info	🗑️ Archived (no remote): “Sales Development Representative”: RemoteStar - Business Development Executive (Freshers) and more
+10:54:40 PM	Info	Stage 2 Complete: 26 emails archived
+10:54:40 PM	Info	
+10:54:40 PM	Info	=== STAGE 3: Role Scorer ===
+10:54:40 PM	Info	Found 0 remote-verified threads to score
+10:54:40 PM	Info	No remote emails to score
+10:54:40 PM	Info	
+10:54:40 PM	Info	✅ Pipeline complete in 5.27 seconds
+10:54:39 PM	Notice	Execution completed
