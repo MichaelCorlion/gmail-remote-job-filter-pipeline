@@ -1,0 +1,41 @@
+10:34:02 PM	Notice	Execution started
+10:34:02 PM	Info	🚀 Starting Double-Key Remote Job Pipeline...
+10:34:02 PM	Info	
+10:34:02 PM	Info	=== STAGE 1: Remote Specialist ===
+10:34:02 PM	Info	🔍 Looking for label: 1.1-🔥---jobs-hot--0-2-days-
+10:34:02 PM	Info	🔍 Looking for label: 1.2-⏰---jobs-warm--3-5-days-
+10:34:02 PM	Info	🔍 Looking for label: 1.3-🧊---jobs-cold--6-10-days-
+10:34:02 PM	Info	🔍 DEBUG - Search query: (label:1.1-🔥---jobs-hot--0-2-days- OR label:1.2-⏰---jobs-warm--3-5-days- OR label:1.3-🧊---jobs-cold--6-10-days-) -label:Remote
+10:34:02 PM	Info	Found 26 threads to process
+10:34:03 PM	Info	✅ Remote jobs found (1): “Sales Development Representative”: Mercor - Sales Specialist - Fully Remote and more
+10:34:03 PM	Info	✅ Remote jobs found (1): Sales Development Representative role at Netskope: Actively recruiting
+10:34:03 PM	Info	✅ Remote jobs found (1): “Sales Development Representative”: Soda - Sales Development Representative(SDR) Internship UK Only and more
+10:34:03 PM	Info	✅ Remote jobs found (1): “Inbound Sales Representative”: Duetto - Business Development Representative - EMEA and more
+10:34:04 PM	Info	✅ Remote jobs found (1): “Sales Development Representative”: Soda - Sales Development Representative(SDR) Internship and more
+10:34:04 PM	Info	✅ Remote jobs found (1): “Inbound Sales Representative”: Alara - Sales Representative and more
+10:34:04 PM	Info	✅ Remote jobs found (1): “Inbound Sales Representative”: Bluecrest Wellness - Sales Support Advisor - Remote and more
+10:34:05 PM	Info	✅ Remote jobs found (1): “Sales Development Representative”: ProcurePro - Sales Development Representative and more
+10:34:05 PM	Info	✅ Remote jobs found (11): Michael, apply now to ‘Travel Customer Service at Viajemos solas pero en Grupo’
+10:34:05 PM	Info	✅ Remote jobs found (1): “Inbound Sales Representative”: ScaleyourSales - Sales Representative and more
+10:34:05 PM	Info	✅ Remote jobs found (1): “Sales Development Representative”: YourPrime - Sales Development Representative and more
+10:34:05 PM	Info	✅ Remote jobs found (1): “Sales Development Representative”: Cyan Exec - Sales Development Representative and more
+10:34:05 PM	Info	✅ Remote jobs found (1): “Inbound Sales Representative”: Litmos - Account Executive and more
+10:34:05 PM	Info	✅ Remote jobs found (1): Junior Sales / SDR - (Software / SaaS) - UK Remote role at Mayflower Recruitment Ltd and other opportunities open
+10:34:06 PM	Info	✅ Remote jobs found (1): “Sales Development Representative”: Employment Hero - Sales Development Representative and more
+10:34:06 PM	Info	✅ Remote jobs found (1): “Inbound Sales Representative”: Deel - Sales Development Representative, Mid-Market | UKI and more
+10:34:06 PM	Info	✅ Remote jobs found (7): Your next opportunity is waiting for you  👋
+10:34:06 PM	Info	✅ Remote jobs found (1): “Sales Development Representative”: UpGuard - Sales Development Representative (SDR) and more
+10:34:06 PM	Info	✅ Remote jobs found (1): “Inbound Sales Representative”: Glean - Commercial Account Executive - UK
+10:34:06 PM	Info	✅ Remote jobs found (1): New opening at Flourish (£27K-£32K / year)
+10:34:06 PM	Info	✅ Remote jobs found (1): “Sales Development Representative”: RemoteStar - Business Development Executive (Freshers) and more
+10:34:06 PM	Info	✅ Remote jobs found (1): “Inbound Sales Representative”: Bluecrest Wellness - Sales Support Advisor - Full Time & Remote
+10:34:07 PM	Info	✅ Remote jobs found (1): “Inbound Sales Representative”: Humand - Inbound Sales Development Representative | EMEA and more
+10:34:07 PM	Info	✅ Remote jobs found (1): “Sales Development Representative”: Connecteam - Sales Development Representative and more
+10:34:07 PM	Info	✅ Remote jobs found (1): “Inbound Sales Representative”: Veeva Systems - Sales Development Representative - UK & Nordics
+10:34:07 PM	Info	✅ Remote jobs found (1): “Sales Development Representative”: RemoteStar - Business Development Executive (Freshers) and more
+10:34:07 PM	Info	Stage 1 Complete: 26 emails with remote jobs found
+10:34:07 PM	Info	
+10:34:07 PM	Info	=== STAGE 2: The Purge ===
+10:34:07 PM	Info	Found 26 job threads to check
+10:34:07 PM	Info	❌ ERROR: Exception: Operation on Gmail Aborted. : Label name exists or conflicts
+10:34:07 PM	Notice	Execution completed
