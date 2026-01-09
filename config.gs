@@ -36,12 +36,22 @@ const BATCH_SIZE = 50;
 // DO NOT change these names unless you also change them in Gmail!
 // ═══════════════════════════════════════════════════════════════
 
-const LABEL_JOBS_HOT = '1.1-🔥---jobs-hot--0-2-days-';        // High-priority job emails (freshly arrived)
-const LABEL_JOBS_WARM = '1.2-⏰---jobs-warm--3-5-days-';      // Medium-priority job emails (a few days old)
-const LABEL_JOBS_COLD = '1.3-🧊---jobs-cold--6-10-days-';     // Low-priority job emails (getting old)
-const LABEL_JOBS_ARCHIVE = '1.4-💾---jobs-archive--11+-days-'; // Where rejected/expired jobs go
-const LABEL_PRIORITY = '0.1-✅---priority';                    // For the BEST remote jobs (150+ score)
-const LABEL_REVIEW = '0.2-❓---review-needed';                 // For "maybe" jobs (50-149 score, needs manual check)
+// ═══════════════════════════════════════════════════════════════
+// FOR SEARCHING (what Gmail search understands - with dashes)
+// ═══════════════════════════════════════════════════════════════
+const SEARCH_JOBS_HOT = '1.1-🔥---jobs-hot--0-2-days-';
+const SEARCH_JOBS_WARM = '1.2-⏰---jobs-warm--3-5-days-';
+const SEARCH_JOBS_COLD = '1.3-🧊---jobs-cold--6-10-days-';
+
+// ═══════════════════════════════════════════════════════════════
+// FOR LABEL OPERATIONS (what getUserLabelByName needs - with spaces)
+// ═══════════════════════════════════════════════════════════════
+const LABEL_JOBS_HOT = '1.1 🔥 - Jobs Hot (0-2 days)';        // High-priority job emails (freshly arrived)
+const LABEL_JOBS_WARM = '1.2 ⏰ - Jobs Warm (3-5 days)';      // Medium-priority job emails (a few days old)
+const LABEL_JOBS_COLD = '1.3 🧊 - Jobs Cold (6-10 days)';     // Low-priority job emails (getting old)
+const LABEL_JOBS_ARCHIVE = '1.4 💾 - Jobs Archive (11+ days)'; // Where rejected/expired jobs go
+const LABEL_PRIORITY = '0.1 ✅ - Priority';                    // For the BEST remote jobs (150+ score)
+const LABEL_REVIEW = '0.2 ❓ - Review Needed';                 // For "maybe" jobs (50-149 score, needs manual check)
 
 // ═══════════════════════════════════════════════════════════════
 // 🆕 NEW LABELS (Created by This Pipeline)
