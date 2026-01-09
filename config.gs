@@ -36,12 +36,12 @@ const BATCH_SIZE = 50;
 // DO NOT change these names unless you also change them in Gmail!
 // ═══════════════════════════════════════════════════════════════
 
-const LABEL_JOBS_HOT = 'Jobs-Hot';        // High-priority job emails
-const LABEL_JOBS_WARM = 'Jobs-Warm';      // Medium-priority job emails
-const LABEL_JOBS_COLD = 'Jobs-Cold';      // Low-priority job emails
-const LABEL_JOBS_ARCHIVE = 'Jobs-Archive'; // Where rejected jobs go
-const LABEL_PRIORITY = 'Priority';         // For the BEST remote jobs
-const LABEL_REVIEW = 'Review';             // For "maybe" jobs (need manual check)
+const LABEL_JOBS_HOT = '1.1 🔥 - Jobs Hot (0-2 days)';        // High-priority job emails (freshly arrived)
+const LABEL_JOBS_WARM = '1.2 ⏰ - Jobs Warm (3-5 days)';      // Medium-priority job emails (a few days old)
+const LABEL_JOBS_COLD = '1.3 🧊 - Jobs Cold (6-10 days)';     // Low-priority job emails (getting old)
+const LABEL_JOBS_ARCHIVE = '1.4 💾 - Jobs Archive (11+ days)'; // Where rejected/expired jobs go
+const LABEL_PRIORITY = '0.1 ✅ - Priority';                    // For the BEST remote jobs (150+ score)
+const LABEL_REVIEW = '0.2 ❓ - Review Needed';                 // For "maybe" jobs (50-149 score, needs manual check)
 
 // ═══════════════════════════════════════════════════════════════
 // 🆕 NEW LABELS (Created by This Pipeline)
