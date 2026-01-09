@@ -5,9 +5,13 @@
 
 function stage1_RemoteSpecialist() {
   Logger.log('=== STAGE 1: Remote Specialist ===');
+  Logger.log('🔍 Looking for label: ' + LABEL_JOBS_HOT);
+  Logger.log('🔍 Looking for label: ' + LABEL_JOBS_WARM);
+  Logger.log('🔍 Looking for label: ' + LABEL_JOBS_COLD);
   
   // Search for job emails that haven't been checked yet
-  var searchQuery = '(label:' + LABEL_JOBS_HOT + ' OR label:' + LABEL_JOBS_WARM + ' OR label:' + LABEL_JOBS_COLD + ') -label:' + LABEL_REMOTE;
+  var searchQuery = '(label:' + SEARCH_JOBS_HOT + ' OR label:' + SEARCH_JOBS_WARM + ' OR label:' + SEARCH_JOBS_COLD + ') -label:' + LABEL_REMOTE;
+  Logger.log('🔍 DEBUG - Search query: ' + searchQuery);
   var threads = GmailApp.search(searchQuery, 0, BATCH_SIZE);
   
   Logger.log('Found ' + threads.length + ' threads to process');
