@@ -3,15 +3,20 @@
  * Scores remote-verified emails by role suitability and opportunity density
  */
 
-function stage3_RoleScorer() {
+function stage3_RoleScorer(threadIdsToProcess) {
   Logger.log('=== STAGE 3: Role Scorer ===');
   
-  // Search for all Remote-labeled emails (no time filter)
-  var searchQuery = 'label:' + LABEL_REMOTE;
-  var threads = GmailApp.search(searchQuery, 0, BATCH_SIZE);
-  
-  Logger.log('Found ' + threads.length + ' remote-verified threads to score');
-  
+  // Get the specific threads that Stage 1 just processed
+  var threads = [];
+  for (var i = 0; i < threadIdsToProcess.length; i++) {
+    var thread = GmailApp.getThreadById(threadIdsToProcess[i]);
+    if (thread) {
+      threads.push(thread);
+    }
+  }
+
+  Logger.log('Found ' + threads.length + ' remote-verified threads to check');
+
   if (threads.length === 0) {
     Logger.log('No remote emails to score');
     return;
@@ -71,22 +76,22 @@ function stage3_RoleScorer() {
     if (totalScore >= MIN_PRIORITY_SCORE) {
       if (!STAGE3_DRY_RUN) {
         thread.addLabel(priorityLabel);
-        thread.star();
+        thread.addStar();
         thread.markImportant();
       }
-      Logger.log('🔥 [DRY RUN] PRIORITY: ' + totalScore + ' - ' + thread.getFirstMessageSubject());
+      Logger.log('🔥 PRIORITY: ' + totalScore + ' - ' + thread.getFirstMessageSubject());
       
     } else if (totalScore >= MIN_REVIEW_SCORE) {
       if (!STAGE3_DRY_RUN) {
         thread.addLabel(reviewLabel);
       }
-      Logger.log('👀 [DRY RUN] REVIEW: ' + totalScore + ' - ' + thread.getFirstMessageSubject());
+      Logger.log('👀 REVIEW: ' + totalScore + ' - ' + thread.getFirstMessageSubject());
       
     } else {
       if (!STAGE3_DRY_RUN) {
         thread.addLabel(lowPriorityLabel);
       }
-      Logger.log('📌 [DRY RUN] LOW PRIORITY: ' + totalScore + ' - ' + thread.getFirstMessageSubject());
+      Logger.log('📌 LOW PRIORITY: ' + totalScore + ' - ' + thread.getFirstMessageSubject());
     }
     
     // Clean up stored data
