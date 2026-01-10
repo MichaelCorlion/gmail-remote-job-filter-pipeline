@@ -10,14 +10,16 @@
  */
 
 // ═══════════════════════════════════════════════════════════════
-// 🛡️ TESTING MODE
+// 🛡️ TESTING MODE - PER STAGE CONTROL
 // ═══════════════════════════════════════════════════════════════
-// Set this to TRUE when testing - the script will run but won't
-// actually change anything (won't label emails, archive, etc.)
-// Set this to FALSE when you're ready to use it for real.
+// Control each stage independently:
+// - Stage 1 should be FALSE so it actually labels emails (needed for testing Stage 2 & 3)
+// - Stage 2 & 3 should be TRUE until you're ready to let them archive/label for real
 // ═══════════════════════════════════════════════════════════════
 
-const DRY_RUN = true;  // Change to false when ready to go live!
+const STAGE1_DRY_RUN = false;  // Always label (so other stages can see the "Remote" label)
+const STAGE2_DRY_RUN = true;   // Don't archive yet (just log what would happen)
+const STAGE3_DRY_RUN = true;   // Don't apply priority labels yet (just log scores)
 
 // ═══════════════════════════════════════════════════════════════
 // 📊 HOW MANY EMAILS TO PROCESS AT ONCE
@@ -36,16 +38,6 @@ const BATCH_SIZE = 50;
 // DO NOT change these names unless you also change them in Gmail!
 // ═══════════════════════════════════════════════════════════════
 
-// ═══════════════════════════════════════════════════════════════
-// FOR SEARCHING (what Gmail search understands - with dashes)
-// ═══════════════════════════════════════════════════════════════
-const SEARCH_JOBS_HOT = '1.1-🔥---jobs-hot--0-2-days-';
-const SEARCH_JOBS_WARM = '1.2-⏰---jobs-warm--3-5-days-';
-const SEARCH_JOBS_COLD = '1.3-🧊---jobs-cold--6-10-days-';
-
-// ═══════════════════════════════════════════════════════════════
-// FOR LABEL OPERATIONS (what getUserLabelByName needs - with spaces)
-// ═══════════════════════════════════════════════════════════════
 const LABEL_JOBS_HOT = '1.1 🔥 - Jobs Hot (0-2 days)';        // High-priority job emails (freshly arrived)
 const LABEL_JOBS_WARM = '1.2 ⏰ - Jobs Warm (3-5 days)';      // Medium-priority job emails (a few days old)
 const LABEL_JOBS_COLD = '1.3 🧊 - Jobs Cold (6-10 days)';     // Low-priority job emails (getting old)
