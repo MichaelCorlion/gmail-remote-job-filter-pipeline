@@ -7,7 +7,7 @@ function stage2_Cleanup() {
   Logger.log('=== STAGE 2: The Purge ===');
   
   // Search for all job emails (no time filter)
-  var searchQuery = 'label:' + LABEL_JOBS_HOT + ' OR label:' + LABEL_JOBS_WARM + ' OR label:' + LABEL_JOBS_COLD;
+  var searchQuery = 'label:' + SEARCH_JOBS_HOT + ' OR label:' + SEARCH_JOBS_WARM + ' OR label:' + SEARCH_JOBS_COLD;
   var threads = GmailApp.search(searchQuery, 0, BATCH_SIZE);
   
   Logger.log('Found ' + threads.length + ' job threads to check');
