@@ -1,0 +1,39 @@
+Execution log
+5:01:51 PM	Notice	Execution started
+5:01:50 PM	Info	🚀 Starting Double-Key Remote Job Pipeline...
+5:01:50 PM	Info	
+5:01:50 PM	Info	=== STAGE 1: Remote Specialist ===
+5:01:50 PM	Info	Found 10 threads to process
+5:01:52 PM	Info	✅ Remote jobs found (47): 🔔 Michael, Meet Health Events is looking for Operations Manager and Executive Assistant and 114 more new jobs
+5:01:54 PM	Info	✅ Remote jobs found (48): 🔔 Michael, Garden House School is looking for PA to the Heads/School Office Secretary and 114 more new jobs
+5:01:56 PM	Info	✅ Remote jobs found (48): 🔔 Michael, Constellation is looking for Cleaning Attendant (No experience required) and 114 more new jobs
+5:01:57 PM	Info	✅ Remote jobs found (12): Catering Assistant role at Route 74 Truckstop: you would be a great fit!
+5:01:59 PM	Info	✅ Remote jobs found (46): 🔔 Michael, Harris Academy Wimbledon is looking for School Administrator and 114 more new jobs
+5:02:00 PM	Info	✅ Remote jobs found (40): Hays Taxation is looking for Fully Remote - Tax Disputes and Investigations Senior Manager and 130 more new jobs
+5:02:02 PM	Info	✅ Remote jobs found (48): 🔔 Michael, PROSPECTUS-4 is looking for (Part-time) Administration Assistant and 120 more new jobs
+5:02:03 PM	Info	✅ Remote jobs found (45): 🔥 You've got a match: Motability Operations is looking for Customer Application Solutions Team Account Manager (6-month Secondment/FTC)
+5:02:05 PM	Info	✅ Remote jobs found (46): ✨ Recommended for you: Raytheon is looking for Executive Assistant/PA - Hybrid and 18 more new jobs
+5:02:06 PM	Info	✅ Remote jobs found (10): Agente Bilingüe de Atención a Clientes – Inglés-Español role at TTEC: you would be a great fit!
+5:02:06 PM	Info	Stage 1 Complete: 10 emails with remote jobs found
+5:02:06 PM	Info	
+5:02:06 PM	Info	=== STAGE 2: The Purge ===
+5:02:06 PM	Info	Found 0 job threads to check
+5:02:06 PM	Info	No job emails to process
+5:02:06 PM	Info	
+5:02:06 PM	Info	=== STAGE 3: Role Scorer ===
+5:02:06 PM	Info	Found 10 remote-verified threads to score
+5:02:07 PM	Info	Created new label: Remote-Low-Priority
+5:02:07 PM	Info	⚠️ No saved data for: 🔥 You've got a match: Field Locker is looking for Market Research Interviewer - Home based (remote)
+5:02:07 PM	Info	⚠️ No saved data for: ✨ Recommended for you: Gregory Distribution is looking for Executive Assistant with excel and 18 more new jobs
+5:02:08 PM	Info	⚠️ No saved data for: 🔔 Michael, AD WARRIOR is looking for Junior School Receptionist and 114 more new jobs
+5:02:08 PM	Info	⚠️ No saved data for: 🔔 Michael, HARRIS HILL is looking for Senior Events Fundraising Officer and 114 more new jobs
+5:02:09 PM	Info	⚠️ No saved data for: 🔔 Michael, Constellation North is looking for Biotech York Barista's required and 114 more new jobs
+5:02:10 PM	Info	⚠️ No saved data for: 🔔 Michael, Garden House School is looking for PA to the Heads/School Office Secretary and 114 more new jobs
+5:02:10 PM	Info	⚠️ No saved data for: Hays Taxation is looking for Fully Remote - Tax Disputes and Investigations Senior Manager and 129 more new jobs
+5:02:10 PM	Info	⚠️ No saved data for: 🔔 Michael, EDWARDS LEGAL RECRUITMENT LP is looking for Private Client Solicitor - Fully Remote Home Based and 120 more new jobs
+5:02:11 PM	Info	⚠️ No saved data for: Play Worker at Flora Stevenson After School Club role at Flora Stevenson After School Club: you would be a great fit!
+5:02:11 PM	Info	⚠️ No saved data for: 🔥 You've got a match: Val Adaway - Business Owner is looking for Home Based Sales - work from home - commission only
+5:02:11 PM	Info	Stage 3 Complete
+5:02:11 PM	Info	
+5:02:11 PM	Info	✅ Pipeline complete in 21.231 seconds
+5:02:12 PM	Notice	Execution completed
