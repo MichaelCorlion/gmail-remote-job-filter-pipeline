@@ -40,7 +40,7 @@ const SEARCH_JOBS_COLD = '1.3-🧊---jobs-cold--6-10-days-';
 // Don't change this unless you know what you're doing!
 // ═══════════════════════════════════════════════════════════════
 
-const BATCH_SIZE = 50;
+const BATCH_SIZE = 10;
 
 // ═══════════════════════════════════════════════════════════════
 // 🏷️ LABEL NAMES (Must Match Your Existing Gmail Labels)
