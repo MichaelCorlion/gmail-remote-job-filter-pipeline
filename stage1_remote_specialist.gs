@@ -5,6 +5,8 @@
 
 function stage1_RemoteSpecialist() {
   Logger.log('=== STAGE 1: Remote Specialist ===');
+
+  var processedThreadIds = [];
   
   // Search for job emails that haven't been checked yet
   var searchQuery = '(label:' + SEARCH_JOBS_HOT + ' OR label:' + SEARCH_JOBS_WARM + ' OR label:' + SEARCH_JOBS_COLD + ') -label:' + LABEL_REMOTE;
@@ -14,7 +16,7 @@ function stage1_RemoteSpecialist() {
   
   if (threads.length === 0) {
     Logger.log('No new job emails to process');
-    return;
+    return processedThreadIds;
   }
   
   var remoteLabel = getOrCreateLabel(LABEL_REMOTE);
@@ -44,16 +46,16 @@ function stage1_RemoteSpecialist() {
       
       // If tier found AND not fake remote, this is a valid remote job
       if (tier !== "NONE" && !isFakeRemote(block)) {
-      remoteJobs.push({
-      text: block.substring(0, 500),  // Only store first 500 chars
-      tier: tier
-});
+        remoteJobs.push({
+          text: block.substring(0, 500),  // Only store first 500 chars
+          tier: tier
+        });
       }
     }
     
-// DECISION: If at least 1 remote job found, apply label
+    // DECISION: If at least 1 remote job found, apply label
     if (remoteJobs.length > 0) {
-      if (!STAGE1_DRY_RUN) {  // ← Changed from DRY_RUN
+      if (!STAGE1_DRY_RUN) {
         thread.addLabel(remoteLabel);
         
         // Save remote jobs for Stage 3
@@ -65,10 +67,12 @@ function stage1_RemoteSpecialist() {
       
       remoteCount++;
       Logger.log('✅ Remote jobs found (' + remoteJobs.length + '): ' + thread.getFirstMessageSubject());
+      processedThreadIds.push(thread.getId());
     } else {
       Logger.log('❌ No remote jobs: ' + thread.getFirstMessageSubject());
     }
   }
   
   Logger.log('Stage 1 Complete: ' + remoteCount + ' emails with remote jobs found');
+  return processedThreadIds;
 }
