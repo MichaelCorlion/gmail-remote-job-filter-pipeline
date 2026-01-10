@@ -7,7 +7,7 @@ function stage2_Cleanup() {
   Logger.log('=== STAGE 2: The Purge ===');
   
   // Search for all job emails (no time filter)
-  var searchQuery = 'label:' + SEARCH_JOBS_HOT + ' OR label:' + SEARCH_JOBS_WARM + ' OR label:' + SEARCH_JOBS_COLD;
+  var searchQuery = 'label:' + LABEL_JOBS_HOT + ' OR label:' + LABEL_JOBS_WARM + ' OR label:' + LABEL_JOBS_COLD;
   var threads = GmailApp.search(searchQuery, 0, BATCH_SIZE);
   
   Logger.log('Found ' + threads.length + ' job threads to check');
@@ -17,14 +17,9 @@ function stage2_Cleanup() {
     return;
   }
   
-  Logger.log('🔍 DEBUG - About to get Remote label: ' + LABEL_REMOTE);
-  Logger.log('🔍 DEBUG - About to get/create Archive label: ' + LABEL_JOBS_ARCHIVE);
-  
   var remoteLabel = GmailApp.getUserLabelByName(LABEL_REMOTE);
   var archiveLabel = getOrCreateLabel(LABEL_JOBS_ARCHIVE);
   var archivedCount = 0;
-  
-  Logger.log('🔍 DEBUG - Successfully got labels');
   
   // Process each thread
   for (var i = 0; i < threads.length; i++) {
@@ -40,16 +35,16 @@ function stage2_Cleanup() {
       }
     }
     
-    // THE KILL DECISION: No Remote label = Archive
+// THE KILL DECISION: No Remote label = Archive
     if (!hasRemoteLabel) {
-      if (!DRY_RUN) {
+      if (!STAGE2_DRY_RUN) {  // ← Changed from DRY_RUN
         thread.addLabel(archiveLabel);
         thread.moveToArchive();
         thread.markRead();
       }
       
       archivedCount++;
-      Logger.log('🗑️ Archived (no remote): ' + thread.getFirstMessageSubject());
+      Logger.log('🗑️ [DRY RUN] Would archive (no remote): ' + thread.getFirstMessageSubject());
     }
   }
   
