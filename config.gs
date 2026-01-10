@@ -22,6 +22,17 @@ const STAGE2_DRY_RUN = true;   // Don't archive yet (just log what would happen)
 const STAGE3_DRY_RUN = true;   // Don't apply priority labels yet (just log scores)
 
 // ═══════════════════════════════════════════════════════════════
+// 🔍 SEARCH FORMAT LABELS (Gmail's Internal Format)
+// ═══════════════════════════════════════════════════════════════
+// Gmail search requires the "dashed" format for labels with emojis.
+// These are used ONLY for search queries, not for label operations.
+// ═══════════════════════════════════════════════════════════════
+
+const SEARCH_JOBS_HOT = '1.1-🔥---jobs-hot--0-2-days-';
+const SEARCH_JOBS_WARM = '1.2-⏰---jobs-warm--3-5-days-';
+const SEARCH_JOBS_COLD = '1.3-🧊---jobs-cold--6-10-days-';
+
+// ═══════════════════════════════════════════════════════════════
 // 📊 HOW MANY EMAILS TO PROCESS AT ONCE
 // ═══════════════════════════════════════════════════════════════
 // This controls the "batch size" - how many emails the script 
