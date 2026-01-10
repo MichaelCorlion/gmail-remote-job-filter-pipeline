@@ -44,10 +44,10 @@ function stage1_RemoteSpecialist() {
       
       // If tier found AND not fake remote, this is a valid remote job
       if (tier !== "NONE" && !isFakeRemote(block)) {
-        remoteJobs.push({
-          text: block,
-          tier: tier
-        });
+      remoteJobs.push({
+      text: block.substring(0, 500),  // Only store first 500 chars
+      tier: tier
+});
       }
     }
     
