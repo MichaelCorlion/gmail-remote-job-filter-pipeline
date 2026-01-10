@@ -1,0 +1,37 @@
+6:46:13 PM	Notice	Execution started
+6:46:13 PM	Info	🚀 Starting Double-Key Remote Job Pipeline...
+6:46:13 PM	Info	
+6:46:13 PM	Info	=== STAGE 1: Remote Specialist ===
+6:46:13 PM	Info	Found 10 threads to process
+6:46:14 PM	Info	✅ Remote jobs found (46): 🔔 Michael, Garden House School is looking for PA to the Heads/School Office Secretary and 114 more new jobs
+6:46:15 PM	Info	✅ Remote jobs found (11): Business Analyst role at VIVID Housing: you would be a great fit!
+6:46:16 PM	Info	✅ Remote jobs found (46): 🔔 Michael, Harris Academy Wimbledon is looking for School Administrator and 114 more new jobs
+6:46:17 PM	Info	✅ Remote jobs found (40): Sanderson Recruitment is looking for Fully Remote Junior Project Manager (IT) and 129 more new jobs
+6:46:18 PM	Info	✅ Remote jobs found (47): 🔔 Michael, AD WARRIOR is looking for Junior School Receptionist and 120 more new jobs
+6:46:18 PM	Info	✅ Remote jobs found (47): 🔥 You've got a match: Field Locker is looking for Market Research Interviewer - Home based (remote)
+6:46:19 PM	Info	✅ Remote jobs found (45): ✨ Recommended for you: Gregory Distribution is looking for Executive Assistant with excel and 18 more new jobs
+6:46:20 PM	Info	✅ Remote jobs found (46): 🔔 Michael, AD WARRIOR is looking for Junior School Receptionist and 114 more new jobs
+6:46:21 PM	Info	✅ Remote jobs found (48): 🔔 Michael, HARRIS HILL is looking for Senior Events Fundraising Officer and 114 more new jobs
+6:46:22 PM	Info	✅ Remote jobs found (47): 🔔 Michael, Constellation North is looking for Biotech York Barista's required and 114 more new jobs
+6:46:22 PM	Info	Stage 1 Complete: 10 emails with remote jobs found
+6:46:22 PM	Info	
+6:46:22 PM	Info	=== STAGE 2: The Purge ===
+6:46:22 PM	Info	Found 10 job threads to check
+6:46:24 PM	Info	Stage 2 Complete: 0 emails archived
+6:46:24 PM	Info	
+6:46:24 PM	Info	=== STAGE 3: Role Scorer ===
+6:46:24 PM	Info	Processing 10 specific threads from Stage 1
+6:46:25 PM	Info	🔥 PRIORITY: Score 920 - 🔔 Michael, Garden House School is looking for PA to the Heads/School Office Secretary and 114 more new jobs
+6:46:27 PM	Info	🔥 PRIORITY: Score 220 - Business Analyst role at VIVID Housing: you would be a great fit!
+6:46:28 PM	Info	🔥 PRIORITY: Score 920 - 🔔 Michael, Harris Academy Wimbledon is looking for School Administrator and 114 more new jobs
+6:46:30 PM	Info	🔥 PRIORITY: Score 880 - Sanderson Recruitment is looking for Fully Remote Junior Project Manager (IT) and 129 more new jobs
+6:46:31 PM	Info	🔥 PRIORITY: Score 1020 - 🔔 Michael, AD WARRIOR is looking for Junior School Receptionist and 120 more new jobs
+6:46:33 PM	Info	🔥 PRIORITY: Score 1020 - 🔥 You've got a match: Field Locker is looking for Market Research Interviewer - Home based (remote)
+6:46:34 PM	Info	🔥 PRIORITY: Score 895 - ✨ Recommended for you: Gregory Distribution is looking for Executive Assistant with excel and 18 more new jobs
+6:46:36 PM	Info	🔥 PRIORITY: Score 920 - 🔔 Michael, AD WARRIOR is looking for Junior School Receptionist and 114 more new jobs
+6:46:37 PM	Info	🔥 PRIORITY: Score 1040 - 🔔 Michael, HARRIS HILL is looking for Senior Events Fundraising Officer and 114 more new jobs
+6:46:39 PM	Info	🔥 PRIORITY: Score 940 - 🔔 Michael, Constellation North is looking for Biotech York Barista's required and 114 more new jobs
+6:46:39 PM	Info	Stage 3 Complete
+6:46:39 PM	Info	
+6:46:39 PM	Info	✅ Pipeline complete in 26.276 seconds
+6:46:40 PM	Notice	Execution completed
