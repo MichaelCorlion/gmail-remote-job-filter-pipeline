@@ -69,28 +69,28 @@ function stage3_RoleScorer() {
     
     // Apply labels based on aggregate score
     if (totalScore >= MIN_PRIORITY_SCORE) {
-      if (!DRY_RUN) {
+      if (!STAGE3_DRY_RUN) {
         thread.addLabel(priorityLabel);
         thread.star();
         thread.markImportant();
       }
-      Logger.log('🔥 PRIORITY: ' + totalScore + ' - ' + thread.getFirstMessageSubject());
+      Logger.log('🔥 [DRY RUN] PRIORITY: ' + totalScore + ' - ' + thread.getFirstMessageSubject());
       
     } else if (totalScore >= MIN_REVIEW_SCORE) {
-      if (!DRY_RUN) {
+      if (!STAGE3_DRY_RUN) {
         thread.addLabel(reviewLabel);
       }
-      Logger.log('👀 REVIEW: ' + totalScore + ' - ' + thread.getFirstMessageSubject());
+      Logger.log('👀 [DRY RUN] REVIEW: ' + totalScore + ' - ' + thread.getFirstMessageSubject());
       
     } else {
-      if (!DRY_RUN) {
+      if (!STAGE3_DRY_RUN) {
         thread.addLabel(lowPriorityLabel);
       }
-      Logger.log('📌 LOW PRIORITY: ' + totalScore + ' - ' + thread.getFirstMessageSubject());
+      Logger.log('📌 [DRY RUN] LOW PRIORITY: ' + totalScore + ' - ' + thread.getFirstMessageSubject());
     }
     
     // Clean up stored data
-    if (!DRY_RUN) {
+    if (!STAGE3_DRY_RUN) {
       props.deleteProperty('remote_jobs_' + threadId);
     }
   }
