@@ -1,0 +1,26 @@
+Execution log
+6:31:56 PM	Notice	Execution started
+6:31:55 PM	Info	🚀 Starting Double-Key Remote Job Pipeline...
+6:31:55 PM	Info	
+6:31:55 PM	Info	=== STAGE 1: Remote Specialist ===
+6:31:55 PM	Info	Found 10 threads to process
+6:31:57 PM	Info	✅ Remote jobs found (43): ✨ Recommended for you: ADAPTABLE RECRUITMENT is looking for Executive Assistant - Full time, Permanent and 18 more new jobs
+6:31:58 PM	Info	✅ Remote jobs found (47): 🔔 Michael, Meet Health Events is looking for Operations Manager and Executive Assistant and 114 more new jobs
+6:31:59 PM	Info	✅ Remote jobs found (48): 🔔 Michael, Garden House School is looking for PA to the Heads/School Office Secretary and 114 more new jobs
+6:32:00 PM	Info	✅ Remote jobs found (48): 🔔 Michael, Constellation is looking for Cleaning Attendant (No experience required) and 114 more new jobs
+6:32:01 PM	Info	✅ Remote jobs found (12): Catering Assistant role at Route 74 Truckstop: you would be a great fit!
+6:32:02 PM	Info	✅ Remote jobs found (46): 🔔 Michael, Harris Academy Wimbledon is looking for School Administrator and 114 more new jobs
+6:32:03 PM	Info	✅ Remote jobs found (40): Hays Taxation is looking for Fully Remote - Tax Disputes and Investigations Senior Manager and 130 more new jobs
+6:32:04 PM	Info	✅ Remote jobs found (48): 🔔 Michael, PROSPECTUS-4 is looking for (Part-time) Administration Assistant and 120 more new jobs
+6:32:05 PM	Info	✅ Remote jobs found (45): 🔥 You've got a match: Motability Operations is looking for Customer Application Solutions Team Account Manager (6-month Secondment/FTC)
+6:32:06 PM	Info	✅ Remote jobs found (46): ✨ Recommended for you: Raytheon is looking for Executive Assistant/PA - Hybrid and 18 more new jobs
+6:32:06 PM	Info	Stage 1 Complete: 10 emails with remote jobs found
+6:32:06 PM	Info	
+6:32:06 PM	Info	=== STAGE 2: The Purge ===
+6:32:06 PM	Info	Found 10 job threads to check
+6:32:08 PM	Info	Stage 2 Complete: 0 emails archived
+6:32:08 PM	Info	
+6:32:08 PM	Info	=== STAGE 3: Role Scorer ===
+6:32:09 PM	Info	Found 10 remote-verified threads to check
+6:32:10 PM	Info	❌ ERROR: TypeError: thread.addStar is not a function
+6:32:11 PM	Notice	Execution completed
