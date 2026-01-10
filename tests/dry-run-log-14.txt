@@ -1,0 +1,38 @@
+Execution log
+5:09:05 PM	Notice	Execution started
+5:09:04 PM	Info	🚀 Starting Double-Key Remote Job Pipeline...
+5:09:04 PM	Info	
+5:09:04 PM	Info	=== STAGE 1: Remote Specialist ===
+5:09:05 PM	Info	Found 10 threads to process
+5:09:06 PM	Info	✅ Remote jobs found (48): 🔔 Michael, Meet Health Events is looking for Operations Manager and Executive Assistant and 114 more new jobs
+5:09:07 PM	Info	✅ Remote jobs found (49): 🔔 Michael, HARRIS FEDERATION is looking for School Administrator and 114 more new jobs
+5:09:08 PM	Info	✅ Remote jobs found (40): Avd Appoint Ltd is looking for Timber Frame Designer (Fully Remote) and 130 more new jobs
+5:09:09 PM	Info	✅ Remote jobs found (47): 🔔 Michael, Action for ME is looking for Fundraising & Membership Officer and 120 more new jobs
+5:09:10 PM	Info	✅ Remote jobs found (47): 🔥 You've got a match: ProfDoc is looking for Child Psychiatrist, ASD ADHD Assessments (Remote)
+5:09:11 PM	Info	✅ Remote jobs found (47): ✨ Recommended for you: TURNER & LOVELL LIMITED is looking for Operations & Executive Assistant and 18 more new jobs
+5:09:12 PM	Info	✅ Remote jobs found (50): 🔔 Michael, Premier Care (Midlands) is looking for Part Time Care Worker - no experience and 114 more new jobs
+5:09:12 PM	Info	✅ Remote jobs found (47): 🔔 Michael, Southern Housing is looking for Operations Assistant - hybrid working and 114 more new jobs
+5:09:13 PM	Info	✅ Remote jobs found (46): 🔔 Michael, Flow Group is looking for Package Delivery Driver (No experience required) and 114 more new jobs
+5:09:14 PM	Info	✅ Remote jobs found (44): 🔔 Michael, NFP PEOPLE is looking for Administration Assistant, Reception (Part Time) and 114 more new jobs
+5:09:14 PM	Info	Stage 1 Complete: 10 emails with remote jobs found
+5:09:14 PM	Info	
+5:09:14 PM	Info	=== STAGE 2: The Purge ===
+5:09:14 PM	Info	Found 10 job threads to check
+5:09:16 PM	Info	Stage 2 Complete: 0 emails archived
+5:09:16 PM	Info	
+5:09:16 PM	Info	=== STAGE 3: Role Scorer ===
+5:09:16 PM	Info	Found 10 remote-verified threads to score
+5:09:16 PM	Info	⚠️ No saved data for: 🔥 You've got a match: Field Locker is looking for Market Research Interviewer - Home based (remote)
+5:09:17 PM	Info	⚠️ No saved data for: ✨ Recommended for you: Gregory Distribution is looking for Executive Assistant with excel and 18 more new jobs
+5:09:17 PM	Info	⚠️ No saved data for: 🔔 Michael, AD WARRIOR is looking for Junior School Receptionist and 114 more new jobs
+5:09:17 PM	Info	⚠️ No saved data for: 🔔 Michael, HARRIS HILL is looking for Senior Events Fundraising Officer and 114 more new jobs
+5:09:17 PM	Info	⚠️ No saved data for: 🔔 Michael, Constellation North is looking for Biotech York Barista's required and 114 more new jobs
+5:09:17 PM	Info	⚠️ No saved data for: 🔔 Michael, Garden House School is looking for PA to the Heads/School Office Secretary and 114 more new jobs
+5:09:17 PM	Info	⚠️ No saved data for: Hays Taxation is looking for Fully Remote - Tax Disputes and Investigations Senior Manager and 129 more new jobs
+5:09:18 PM	Info	⚠️ No saved data for: 🔔 Michael, EDWARDS LEGAL RECRUITMENT LP is looking for Private Client Solicitor - Fully Remote Home Based and 120 more new jobs
+5:09:18 PM	Info	⚠️ No saved data for: Play Worker at Flora Stevenson After School Club role at Flora Stevenson After School Club: you would be a great fit!
+5:09:18 PM	Info	⚠️ No saved data for: 🔥 You've got a match: Val Adaway - Business Owner is looking for Home Based Sales - work from home - commission only
+5:09:18 PM	Info	Stage 3 Complete
+5:09:18 PM	Info	
+5:09:18 PM	Info	✅ Pipeline complete in 13.603 seconds
+5:09:19 PM	Notice	Execution completed
