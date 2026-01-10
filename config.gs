@@ -19,7 +19,7 @@
 
 const STAGE1_DRY_RUN = false;  // Always label (so other stages can see the "Remote" label)
 const STAGE2_DRY_RUN = true;   // Don't archive yet (just log what would happen)
-const STAGE3_DRY_RUN = true;   // Don't apply priority labels yet (just log scores)
+const STAGE3_DRY_RUN = false;   // Don't apply priority labels yet (just log scores)
 
 // ═══════════════════════════════════════════════════════════════
 // 🔍 SEARCH FORMAT LABELS (Gmail's Internal Format)
