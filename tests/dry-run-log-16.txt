@@ -1,0 +1,78 @@
+Execution log
+6:12:08 PM	Notice	Execution started
+6:12:08 PM	Info	🚀 Starting Double-Key Remote Job Pipeline...
+6:12:08 PM	Info	
+6:12:08 PM	Info	=== STAGE 1: Remote Specialist ===
+6:12:08 PM	Info	Found 10 threads to process
+6:12:09 PM	Info	✅ Remote jobs found (48): 🔥 You've got a match: NTT DATA Business Solutions is looking for SAP S4HANA AM, Asset Management Consultant
+6:12:10 PM	Info	✅ Remote jobs found (49): ✨ Recommended for you: GORDON YATES is looking for Seeking Senior Executive Assistant- and 17 more new jobs
+6:12:11 PM	Info	✅ Remote jobs found (50): 🔔 Michael, Meet Health Events is looking for Operations Manager and Executive Assistant and 120 more new jobs
+6:12:12 PM	Info	✅ Remote jobs found (49): 🔔 Michael, Meet Health Events is looking for Operations Manager and Executive Assistant and 114 more new jobs
+6:12:13 PM	Info	✅ Remote jobs found (47): 🔔 Michael, STREATHAM AND CLAPHAM HIGH SCHOOL GDST is looking for Receptionist / Administrative Assistant and 114 more new jobs
+6:12:13 PM	Info	✅ Remote jobs found (40): Avd Appoint Ltd is looking for Timber Frame Designer (Fully Remote) and 132 more new jobs
+6:12:14 PM	Info	✅ Remote jobs found (48): 🔔 Michael, STREATHAM AND CLAPHAM HIGH SCHOOL GDST is looking for Receptionist / Administrative Assistant and 120 more new jobs
+6:12:15 PM	Info	✅ Remote jobs found (49): 🔥 You've got a match: THE UNITED WORLD COLLEGES is looking for Administrative Intern
+6:12:16 PM	Info	✅ Remote jobs found (48): ✨ Recommended for you: Prospectus is looking for Executive Assistant and 17 more new jobs
+6:12:17 PM	Info	✅ Remote jobs found (19): CVS Health,Symetra Financial: Apply Now
+6:12:17 PM	Info	Stage 1 Complete: 10 emails with remote jobs found
+6:12:17 PM	Info	
+6:12:17 PM	Info	=== STAGE 2: The Purge ===
+6:12:17 PM	Info	Found 10 job threads to check
+6:12:19 PM	Info	Stage 2 Complete: 0 emails archived
+6:12:19 PM	Info	
+6:12:19 PM	Info	=== STAGE 3: Role Scorer ===
+6:12:19 PM	Info	Found 50 remote-verified threads to check
+6:12:19 PM	Info	⚠️ No saved data for: 🔥 You've got a match: Field Locker is looking for Market Research Interviewer - Home based (remote)
+6:12:19 PM	Info	⚠️ No saved data for: ✨ Recommended for you: Gregory Distribution is looking for Executive Assistant with excel and 18 more new jobs
+6:12:20 PM	Info	⚠️ No saved data for: 🔔 Michael, AD WARRIOR is looking for Junior School Receptionist and 114 more new jobs
+6:12:20 PM	Info	⚠️ No saved data for: 🔔 Michael, HARRIS HILL is looking for Senior Events Fundraising Officer and 114 more new jobs
+6:12:20 PM	Info	⚠️ No saved data for: 🔔 Michael, Constellation North is looking for Biotech York Barista's required and 114 more new jobs
+6:12:20 PM	Info	⚠️ No saved data for: 🔔 Michael, Garden House School is looking for PA to the Heads/School Office Secretary and 114 more new jobs
+6:12:20 PM	Info	⚠️ No saved data for: Hays Taxation is looking for Fully Remote - Tax Disputes and Investigations Senior Manager and 129 more new jobs
+6:12:20 PM	Info	⚠️ No saved data for: 🔔 Michael, EDWARDS LEGAL RECRUITMENT LP is looking for Private Client Solicitor - Fully Remote Home Based and 120 more new jobs
+6:12:21 PM	Info	⚠️ No saved data for: Play Worker at Flora Stevenson After School Club role at Flora Stevenson After School Club: you would be a great fit!
+6:12:21 PM	Info	⚠️ No saved data for: 🔥 You've got a match: Val Adaway - Business Owner is looking for Home Based Sales - work from home - commission only
+6:12:21 PM	Info	⚠️ No saved data for: ✨ Recommended for you: ADAPTABLE RECRUITMENT is looking for Executive Assistant - Full time, Permanent and 18 more new jobs
+6:12:21 PM	Info	⚠️ No saved data for: 🔔 Michael, Meet Health Events is looking for Operations Manager and Executive Assistant and 114 more new jobs
+6:12:21 PM	Info	⚠️ No saved data for: 🔔 Michael, Garden House School is looking for PA to the Heads/School Office Secretary and 114 more new jobs
+6:12:21 PM	Info	⚠️ No saved data for: 🔔 Michael, Constellation is looking for Cleaning Attendant (No experience required) and 114 more new jobs
+6:12:22 PM	Info	⚠️ No saved data for: Catering Assistant role at Route 74 Truckstop: you would be a great fit!
+6:12:22 PM	Info	⚠️ No saved data for: 🔔 Michael, Harris Academy Wimbledon is looking for School Administrator and 114 more new jobs
+6:12:22 PM	Info	⚠️ No saved data for: Hays Taxation is looking for Fully Remote - Tax Disputes and Investigations Senior Manager and 130 more new jobs
+6:12:22 PM	Info	⚠️ No saved data for: 🔔 Michael, PROSPECTUS-4 is looking for (Part-time) Administration Assistant and 120 more new jobs
+6:12:22 PM	Info	⚠️ No saved data for: 🔥 You've got a match: Motability Operations is looking for Customer Application Solutions Team Account Manager (6-month Secondment/FTC)
+6:12:23 PM	Info	⚠️ No saved data for: ✨ Recommended for you: Raytheon is looking for Executive Assistant/PA - Hybrid and 18 more new jobs
+6:12:23 PM	Info	⚠️ No saved data for: Agente Bilingüe de Atención a Clientes – Inglés-Español role at TTEC: you would be a great fit!
+6:12:23 PM	Info	⚠️ No saved data for: 🔔 Michael, Meet Health Events is looking for Operations Manager and Executive Assistant and 114 more new jobs
+6:12:23 PM	Info	⚠️ No saved data for: 🔔 Michael, HARRIS FEDERATION is looking for School Administrator and 114 more new jobs
+6:12:23 PM	Info	⚠️ No saved data for: Avd Appoint Ltd is looking for Timber Frame Designer (Fully Remote) and 130 more new jobs
+6:12:23 PM	Info	⚠️ No saved data for: 🔔 Michael, Action for ME is looking for Fundraising & Membership Officer and 120 more new jobs
+6:12:24 PM	Info	⚠️ No saved data for: 🔥 You've got a match: ProfDoc is looking for Child Psychiatrist, ASD ADHD Assessments (Remote)
+6:12:24 PM	Info	⚠️ No saved data for: ✨ Recommended for you: TURNER & LOVELL LIMITED is looking for Operations & Executive Assistant and 18 more new jobs
+6:12:24 PM	Info	⚠️ No saved data for: 🔔 Michael, Premier Care (Midlands) is looking for Part Time Care Worker - no experience and 114 more new jobs
+6:12:24 PM	Info	⚠️ No saved data for: 🔔 Michael, Southern Housing is looking for Operations Assistant - hybrid working and 114 more new jobs
+6:12:24 PM	Info	⚠️ No saved data for: 🔔 Michael, Flow Group is looking for Package Delivery Driver (No experience required) and 114 more new jobs
+6:12:25 PM	Info	⚠️ No saved data for: 🔔 Michael, NFP PEOPLE is looking for Administration Assistant, Reception (Part Time) and 114 more new jobs
+6:12:25 PM	Info	⚠️ No saved data for: Ashdown Group is looking for IT Project Manager 3 month contract - £400 p/d fully remote / home based (remote) and 130 more new jobs
+6:12:25 PM	Info	⚠️ No saved data for: 🔔 Michael, The Cinnamon Care Collection is looking for Administration Assistant, Reception (Part Time) and 120 more new jobs
+6:12:25 PM	Info	⚠️ No saved data for: Full Time High Ticket DM Appointment Setter role at Impact Clients: you would be a great fit!
+6:12:25 PM	Info	⚠️ No saved data for: Abacus Technology is hiring. Apply Now.
+6:12:25 PM	Info	⚠️ No saved data for: 🔥 You've got a match: Tina Lacey Recruitment is looking for Conveyancing Learner Coach
+6:12:26 PM	Info	⚠️ No saved data for: ✨ Recommended for you: The Oaklea Trust is looking for Executive Assistant - Full time, Permanent and 18 more new jobs
+6:12:26 PM	Info	⚠️ No saved data for: 🔔 Michael, NFP People is looking for Part-time Fundraising Officer and 114 more new jobs
+6:12:26 PM	Info	⚠️ No saved data for: Dispatcher role at Attridge Transportation: you would be a great fit!
+6:12:26 PM	Info	⚠️ No saved data for: 🔔 Michael, Meet Health Events is looking for Operations Manager and Executive Assistant and 114 more new jobs
+6:12:26 PM	Info	⚠️ No saved data for: 🔔 Michael, Coca-Cola Europacific Partners is looking for Store Merchandiser (No experience required) and 114 more new jobs
+6:12:27 PM	Info	⚠️ No saved data for: 🔔 Michael, LB WANDSWORTH SCHOOLS is looking for School Administrative Assistant and 114 more new jobs
+6:12:27 PM	Info	⚠️ No saved data for: Avd Appoint Ltd is looking for Timber Frame Designer (Fully Remote) and 132 more new jobs
+6:12:27 PM	Info	⚠️ No saved data for: 🔔 Michael, TURNER & LOVELL LIMITED is looking for Operations & Executive Assistant and 120 more new jobs
+6:12:27 PM	Info	⚠️ No saved data for: 🔥 You've got a match: Service Care Solutions is looking for ADHD Prescriber
+6:12:27 PM	Info	⚠️ No saved data for: ✨ Recommended for you: Diocese of Gloucester is looking for Executive Assistant for Church Development Agency and 17 more new jobs
+6:12:27 PM	Info	⚠️ No saved data for: 🔔 Michael, STREATHAM AND CLAPHAM HIGH SCHOOL GDST is looking for Receptionist / Administrative Assistant and 114 more new jobs
+6:12:28 PM	Info	⚠️ No saved data for: 🔔 Michael, TURNER & LOVELL LIMITED is looking for Operations & Executive Assistant and 120 more new jobs
+6:12:28 PM	Info	⚠️ No saved data for: 🔔 Michael, Flow Group is looking for Parcel Delivery Driver (No experience required) and 114 more new jobs
+6:12:28 PM	Info	⚠️ No saved data for: Bank Support Worker - Connel, Oban role at Affinity Trust: you would be a great fit!
+6:12:28 PM	Info	Stage 3 Complete
+6:12:28 PM	Info	
+6:12:28 PM	Info	✅ Pipeline complete in 20.41 seconds
+6:12:29 PM	Notice	Execution completed
