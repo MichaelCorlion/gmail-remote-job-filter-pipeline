@@ -8,17 +8,21 @@ function masterJobFilter() {
   var startTime = new Date();
   
   try {
-    // STAGE 1: Remote Specialist
+    // STAGE 1: Remote Specialist (returns the IDs it processed)
     Logger.log('');
-    stage1_RemoteSpecialist();
+    var processedThreadIds = stage1_RemoteSpecialist();
     
     // STAGE 2: Cleanup
     Logger.log('');
     stage2_Cleanup();
     
-    // STAGE 3: Role Scorer
+    // STAGE 3: Role Scorer (only processes the IDs from Stage 1)
     Logger.log('');
-    stage3_RoleScorer();
+    if (processedThreadIds && processedThreadIds.length > 0) {
+      stage3_RoleScorer(processedThreadIds);
+    } else {
+      Logger.log('No threads to score (Stage 1 found none)');
+    }
     
     var endTime = new Date();
     var duration = (endTime - startTime) / 1000;
